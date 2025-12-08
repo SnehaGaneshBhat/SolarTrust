@@ -76,18 +76,18 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 ### 4. Create a .env file in the repo root
-# (Judges must replace YOUR_SECRET_KEY with their own valid Google Maps API key)
+NOTE: (Judges must replace YOUR_SECRET_KEY with their own valid Google Maps API key)
 echo "GOOGLE_MAPS_API_KEY=YOUR_SECRET_KEY" > .env
 
-# 5. Run the application
+### 5. Run the application
 streamlit run app.py
 
-# === Outputs will be generated in these folders ===
-# data/fetched/              -> fetched satellite images
-# outputs/overlays/          -> YOLO overlay images
-# outputs/manifests/         -> manifest JSON files
-# outputs/metrics/           -> pipeline_metrics.csv
-# certificates/              -> generated certificates
+## === Outputs will be generated in these folders ===
+ data/fetched/              -> fetched satellite images
+ outputs/overlays/          -> YOLO overlay images
+ outputs/manifests/         -> manifest JSON files
+ outputs/metrics/           -> pipeline_metrics.csv
+ certificates/              -> generated certificates
 
 ---
 
