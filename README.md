@@ -67,9 +67,9 @@ cd -solar-verification-app---
 
 ### 2. Create and activate a virtual environment
 python -m venv venv
-# On Mac/Linux:
+**On Mac/Linux:**
 source venv/bin/activate
-# On Windows (PowerShell):
+**On Windows (PowerShell):**
 venv\Scripts\activate
 
 ### 3. Install dependencies
