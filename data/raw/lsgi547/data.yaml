@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['SolarPanel']
+
+roboflow:
+  workspace: snehaganeshbhat
+  project: lsgi547-project-plp20
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/snehaganeshbhat/lsgi547-project-plp20/dataset/1

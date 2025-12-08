@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.npy
+*.csv
+*.jpg
+*.png
+*.mp4
+
+# Logs
+*.log
+
+# Ignore environment files
+.env

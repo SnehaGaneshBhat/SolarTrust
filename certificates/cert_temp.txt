@@ -1,0 +1,20 @@
+------------------------------------------------------------
+              Government of Karnataka
+        Rooftop Solar Verification Certificate
+------------------------------------------------------------
+
+Sample ID: {sample_id}
+Verification Date: {date}
+
+Solar Panels Detected: Yes
+Number of Panels: {panel_count}
+Estimated Solar Area: {total_area} sqft
+Solar Health Score: {solar_health_score}
+QC Status: {qc_flag}
+
+This is to certify that the above-mentioned rooftop has been
+verified through satellite-based AI analysis and qualifies
+for solar subsidy under the current government scheme.
+
+------------------------------------------------------------
+Issued by: Department of Renewable Energy

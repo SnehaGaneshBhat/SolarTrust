@@ -1,0 +1,10 @@
+Epoch 01 | train_loss=0.2846 | val_loss=0.1638 | val_acc=0.9495 | val_f1=0.9710
+Epoch 02 | train_loss=0.1282 | val_loss=0.0910 | val_acc=0.9633 | val_f1=0.9787
+Epoch 03 | train_loss=0.0921 | val_loss=0.0479 | val_acc=0.9771 | val_f1=0.9866
+Epoch 04 | train_loss=0.0456 | val_loss=0.0432 | val_acc=0.9862 | val_f1=0.9919
+Epoch 05 | train_loss=0.0467 | val_loss=0.0259 | val_acc=0.9908 | val_f1=0.9946
+Epoch 06 | train_loss=0.0273 | val_loss=0.0118 | val_acc=1.0000 | val_f1=1.0000
+Epoch 07 | train_loss=0.0192 | val_loss=0.0068 | val_acc=1.0000 | val_f1=1.0000
+Epoch 08 | train_loss=0.0140 | val_loss=0.0092 | val_acc=1.0000 | val_f1=1.0000
+Epoch 09 | train_loss=0.0069 | val_loss=0.0055 | val_acc=1.0000 | val_f1=1.0000
+Epoch 10 | train_loss=0.0058 | val_loss=0.0029 | val_acc=1.0000 | val_f1=1.0000

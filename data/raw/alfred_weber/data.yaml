@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['solar-panels']
+
+roboflow:
+  workspace: snehaganeshbhat
+  project: aerial-solar-panels-dlxdu
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/snehaganeshbhat/aerial-solar-panels-dlxdu/dataset/1

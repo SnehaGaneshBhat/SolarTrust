@@ -1,0 +1,33 @@
+# Environment Setup
+
+This folder contains all files needed to recreate the Python environment for the **EcoInnovators Ideathon 2026 – AI Powered Rooftop PV Detection** project.
+
+## Files
+- requirements.txt → List of Python libraries for pip installation.
+- environment.yml → Conda environment specification (name: rooftop-ai).
+- python_version.txt → Exact Python version used (e.g., 3.10.12).
+
+## Setup Instructions
+
+### Option A: Using pip
+python -m venv .venv
+.venv\Scripts\activate
+pip install --upgrade pip
+pip install -r environment/requirements.txt
+
+### Option B: Using conda
+conda env create -f environment/environment.yml
+conda activate rooftop-ai
+
+### Verify Installation
+Run the following test:
+python -c "import numpy, pandas, sklearn, torch, torchvision, cv2, PIL, requests, tqdm; print('Environment OK')"
+
+If you see `Environment OK`, the setup is successful.
+
+## Notes
+- Always check python_version.txt to ensure you’re using the correct Python version.
+- Update requirements.txt or environment.yml if new libraries are added during development.
+- Keep this folder synced so collaborators can reproduce the same environment.
+
+---

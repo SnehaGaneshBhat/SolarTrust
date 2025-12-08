@@ -1,0 +1,14 @@
+artifact_uri: file:D:/-solar-verification-app---/runs/mlflow/586851432707624956/e7b68b008b544c5b8a6d50a222f4c234/artifacts
+end_time: 1764859962669
+entry_point_name: ''
+experiment_id: '586851432707624956'
+lifecycle_stage: active
+run_id: e7b68b008b544c5b8a6d50a222f4c234
+run_name: train5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764859471266
+status: 3
+tags: []
+user_id: sneha

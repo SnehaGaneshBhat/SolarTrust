@@ -1,0 +1,5 @@
+path: data/solar
+train: train/images
+val: val/images
+nc: 1
+names: ["panel"]
