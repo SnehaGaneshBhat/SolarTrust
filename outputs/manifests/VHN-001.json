@@ -1,5 +1,5 @@
 {
-  "sample_id": "R004",
+  "sample_id": "VHN-001",
   "lat": 13.0827,
   "lon": 80.2707,
   "has_solar": true,
@@ -47,7 +47,7 @@
   ],
   "image_metadata": {
     "source": "Google Static Maps",
-    "capture_date": "2025-12-08"
+    "capture_date": "2025-12-09"
   },
-  "timestamp": "2025-12-08T16:34:50.295090Z"
+  "timestamp": "2025-12-09T11:35:10.050579Z"
 }

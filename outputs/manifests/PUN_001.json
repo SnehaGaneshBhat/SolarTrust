@@ -1,0 +1,23 @@
+{
+  "sample_id": "PUN_001",
+  "lat": 18.5204,
+  "lon": 73.8567,
+  "has_solar": true,
+  "confidence": 0.11,
+  "pv_area_sqm_est": 151.1,
+  "buffer_radius_sqft": 1626,
+  "qc_status": "VERIFIABLE",
+  "bbox_or_mask": [
+    [
+      227,
+      620,
+      318,
+      638
+    ]
+  ],
+  "image_metadata": {
+    "source": "Google Static Maps",
+    "capture_date": "2025-12-09"
+  },
+  "timestamp": "2025-12-09T11:35:02.326599Z"
+}

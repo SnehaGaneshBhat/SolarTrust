@@ -1,0 +1,16 @@
+{
+  "sample_id": "RUR_001",
+  "lat": 13.3392,
+  "lon": 77.1135,
+  "has_solar": false,
+  "confidence": 0.0,
+  "pv_area_sqm_est": 0.0,
+  "buffer_radius_sqft": 0,
+  "qc_status": "NOT_VERIFIABLE",
+  "bbox_or_mask": [],
+  "image_metadata": {
+    "source": "Google Static Maps",
+    "capture_date": "2025-12-09"
+  },
+  "timestamp": "2025-12-09T11:34:48.784316Z"
+}

@@ -1,0 +1,59 @@
+{
+  "sample_id": "MYS_001",
+  "lat": 12.2958,
+  "lon": 76.6394,
+  "has_solar": true,
+  "confidence": 0.46,
+  "pv_area_sqm_est": 3217.3,
+  "buffer_radius_sqft": 34631,
+  "qc_status": "VERIFIABLE",
+  "bbox_or_mask": [
+    [
+      0,
+      150,
+      95,
+      200
+    ],
+    [
+      0,
+      189,
+      87,
+      233
+    ],
+    [
+      0,
+      298,
+      92,
+      349
+    ],
+    [
+      0,
+      275,
+      93,
+      349
+    ],
+    [
+      0,
+      163,
+      94,
+      234
+    ],
+    [
+      0,
+      224,
+      93,
+      272
+    ],
+    [
+      4,
+      263,
+      93,
+      301
+    ]
+  ],
+  "image_metadata": {
+    "source": "Google Static Maps",
+    "capture_date": "2025-12-09"
+  },
+  "timestamp": "2025-12-09T11:34:44.677730Z"
+}

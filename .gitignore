@@ -20,3 +20,13 @@ venv/
 
 # Ignore environment files
 .env
+
+#Ignore the entire data file used for training
+data/
+*.csv
+*.txt
+*.jpg
+*.png
+
+#Ignore test.py
+test.py

@@ -1,7 +1,7 @@
 {
-  "sample_id": "R002",
-  "lat": 28.6139,
-  "lon": 77.209,
+  "sample_id": "BLR_002",
+  "lat": 12.9352,
+  "lon": 77.6146,
   "has_solar": false,
   "confidence": 0.0,
   "pv_area_sqm_est": 0.0,
@@ -10,7 +10,7 @@
   "bbox_or_mask": [],
   "image_metadata": {
     "source": "Google Static Maps",
-    "capture_date": "2025-12-08"
+    "capture_date": "2025-12-09"
   },
-  "timestamp": "2025-12-08T16:34:31.092907Z"
+  "timestamp": "2025-12-09T11:34:40.697483Z"
 }

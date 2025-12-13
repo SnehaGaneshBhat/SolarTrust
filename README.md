@@ -55,12 +55,21 @@ solar-verification-app/
 ├── ui/                        # Streamlit theme and config of dashboards
 │   ├── resident_dashboard
 |   └── official_dashboard
+├── media/
+|   ├── SolarTrust.mp4         # Advertisement video for the website
+|   └── figma_link             # Link to our Figma Prototype for the website
 ├── LICENSE                    # MIT License file
 └── README.md                  # Project overview and run instructions
 
 ---
 
-## Setup Instructions
+## Data
+Training datasets are not included in this repository to keep it lightweight.
+To run the pipeline, please provide your own data or use the API integration.
+
+---
+
+## Setup and Usage Instructions
 ### 1. Clone the repository
 git clone https://github.com/roopashreejs08/-solar-verification-app---.git
 cd -solar-verification-app---
@@ -82,7 +91,7 @@ echo "GOOGLE_MAPS_API_KEY=YOUR_SECRET_KEY" > .env
 ### 5. Run the application
 streamlit run app.py
 
-## === Outputs will be generated in these folders ===
+### === Outputs will be generated in these folders ===
  data/fetched/              -> fetched satellite images
  outputs/overlays/          -> YOLO overlay images
  outputs/manifests/         -> manifest JSON files
@@ -91,26 +100,38 @@ streamlit run app.py
 
 ---
 
-## How to Run
-Run the pipeline with an input `.xlsx` file containing sample_id, latitude, longitude:
-python pipeline_code/run_pipeline.py input.xlsx output/  
+## Web App Features
+- Choose role: Official or Resident
+- Upload Excel file with sample_id, lat, lon
+- View satellite images and solar panel detection
+- Download overlays, JSON manifests, and certificates
 
-Outputs:
-- JSON file per site (with detection results, confidence, PV area, QC status).
-- Overlay images in `outputs/`.
+(Optional) Run the backend pipeline directly
+python pipeline_code/run_pipeline.py inputs/input.xlsx
 
-Example JSON:
-{
-  "sample_id": 1234,
-  "lat": 12.9716,
-  "lon": 77.5946,
-  "has_solar": true,
-  "confidence": 0.92,
-  "pv_area_sqm_est": 23.5,
-  "buffer_radius_sqft": 1200,
-  "qc_status": "VERIFIABLE",
-  "bbox_or_mask": "<encoded polygon>",
-  "image_metadata": {"source": "Google", "capture_date": "2025-11-01"}
+### Outputs will be saved to:
+ - data/fetched/         -> Satellite images
+ - outputs/overlays/     -> YOLO overlay images
+ - outputs/manifests/    -> Manifest JSON files
+ - outputs/metrics/      -> pipeline_metrics.csv
+ - certificates/         -> Generated certificates
+
+### Example output JSON:
+ {
+   "sample_id": 1234,
+   "lat": 12.9716,
+   "lon": 77.5946,
+   "has_solar": true,
+   "confidence": 0.92,
+   "pv_area_sqm_est": 23.5,
+   "buffer_radius_sqft": 1200,
+   "qc_status": "VERIFIABLE",
+   "bbox_or_mask": [[x1, y1, x2, y2], ...],
+   "image_metadata": {
+     "source": "Google",
+     "capture_date": "2025-11-01"
+   },
+   "timestamp": "2025-12-08T09:52:54.484451Z"
 }
 
 ---
@@ -137,7 +158,14 @@ Example JSON:
 - Solar Health Monitoring: Predicts panel efficiency using weather + visual cues.  
 - Digital Certificates: Tamper‑proof verification for households.  
 - Citizen Portal: Transparency for households to track subsidy status.  
-- SolarTrust Chatbot
+- Savings Calculator on resident dashboard for residents to understand the amount of energy they're saving  per month
+
+---
+
+## Future Scope
+- **React.js Frontend**: Replace Streamlit with a more dynamic and scalable UI.
+- **Backend Integration**: Add APIs for model inference, data storage, and user management.
+- **AI Chatbot**: Embed a chatbot for real-time user assistance and support.
 
 ---
 
