@@ -13,7 +13,6 @@ venv/
 *.csv
 *.jpg
 *.png
-*.mp4
 
 # Logs
 *.log
