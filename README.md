@@ -89,14 +89,7 @@ NOTE: (Judges must replace YOUR_SECRET_KEY with their own valid Google Maps API 
 echo "GOOGLE_MAPS_API_KEY=YOUR_SECRET_KEY" > .env
 
 ### 5. Run the application
-streamlit run app.py
-
-### === Outputs will be generated in these folders ===
- data/fetched/              -> fetched satellite images
- outputs/overlays/          -> YOLO overlay images
- outputs/manifests/         -> manifest JSON files
- outputs/metrics/           -> pipeline_metrics.csv
- certificates/              -> generated certificates
+streamlit run app.py\
 
 ---
 
